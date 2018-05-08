@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  devtools:
+    restart:
+      enabled: true
+      exclude: WEB-INF/**
+      additional-paths:
+        - src/main/java
