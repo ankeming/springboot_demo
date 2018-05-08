@@ -19,14 +19,6 @@ public class DemoService {
         LinkedHashMap linkedHashMap = new LinkedHashMap();
         ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor)Executors.newFixedThreadPool(1);
         ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(2);
-        RecursiveTask recursiveTask = new RecursiveTask() {
-            @Override
-            protected Object compute() {
-                return null;
-            }
-        };
-
-
         return user;
     }
 }
